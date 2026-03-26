@@ -3,32 +3,32 @@ import { Check } from "lucide-react"
 
 export function PersonalOsSection() {
   return (
-    <section className="container max-w-screen-xl py-20">
+    <section id="delivery" className="container max-w-screen-xl py-20">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
         <div>
           <h2 className="text-3xl font-bold mb-4">
-            Ваша персональная
+            Заказывайте мясо
             <br />
-            операционная система
+            не выходя из дома
           </h2>
           <p className="text-muted-foreground mb-8">
-            Объедините команду с интуитивной платформой, которая связывает данные, приложения и людей воедино.
+            Удобное приложение для заказа свежего мяса и полуфабрикатов. Выбирайте товары, указывайте нужный вес и оформляйте заказ за пару минут.
           </p>
 
           <Card className="bg-card/50 border-border/40 mb-6">
             <CardHeader className="pb-2">
-              <CardTitle className="text-sm font-medium">AI-действия</CardTitle>
+              <CardTitle className="text-sm font-medium">Статус вашего заказа</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-xs text-muted-foreground">Поручите ИИ управление задачами</p>
+              <p className="text-xs text-muted-foreground">🟢 Заказ #1042 — в пути. Ожидайте через 45 минут</p>
             </CardContent>
           </Card>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <FeatureItem title="Интеграция с почтой" />
-            <FeatureItem title="Гибкая настройка" />
-            <FeatureItem title="Совместная работа" />
-            <FeatureItem title="Безлимитное хранилище" />
+            <FeatureItem title="Доставка за 2 часа" />
+            <FeatureItem title="Самовывоз в любое время" />
+            <FeatureItem title="Отслеживание заказа" />
+            <FeatureItem title="Оплата онлайн и наличными" />
           </div>
         </div>
 
@@ -36,21 +36,21 @@ export function PersonalOsSection() {
           <Card className="bg-card/50 border-border/40">
             <CardHeader className="pb-2">
               <CardTitle className="text-sm font-medium flex items-center gap-2">
-                <div className="w-2 h-2 rounded-full bg-yellow-500"></div> Терминал
+                <div className="w-2 h-2 rounded-full bg-green-500"></div> Новый заказ поступил
               </CardTitle>
             </CardHeader>
             <CardContent className="text-xs font-mono">
-              <div className="text-green-500 mb-1">$ npm install nexora-sdk</div>
-              <div className="text-muted-foreground mb-1">Установка пакетов...</div>
-              <div className="text-blue-500">Готово! Установка завершена</div>
+              <div className="text-green-500 mb-1">✓ Говядина (вырезка) — 1.2 кг</div>
+              <div className="text-muted-foreground mb-1">✓ Котлеты домашние — 0.5 кг</div>
+              <div className="text-primary">→ Доставка: ул. Ленина 42, кв. 7</div>
             </CardContent>
           </Card>
 
           <div className="grid grid-cols-2 gap-4">
-            <FeatureCheck title="Дашборд аналитики" />
-            <FeatureCheck title="Предиктивная аналитика" />
-            <FeatureCheck title="Kanban-доски для проектов" />
-            <FeatureCheck title="Авто-синхронизация" />
+            <FeatureCheck title="Свежий продукт ежедневно" />
+            <FeatureCheck title="Фото товаров в каталоге" />
+            <FeatureCheck title="История заказов" />
+            <FeatureCheck title="Уведомления о статусе" />
           </div>
         </div>
       </div>

@@ -6,32 +6,26 @@ export function HeroSection() {
     <section className="container max-w-screen-xl py-20 text-center">
       <div className="flex justify-center mb-6">
         <Badge variant="outline" className="px-4 py-1 text-sm rounded-full border-neutral-700">
-          Публичная бета-версия 2.0
+          🥩 Свежее мясо с доставкой до двери
         </Badge>
       </div>
       <h1 className="text-5xl font-bold tracking-tight md:text-6xl lg:text-7xl mb-6">
-        Добро пожаловать
+        Мясо и полуфабрикаты
         <br />
-        в Nexora
+        <span className="text-primary">с доставкой</span> на дом
       </h1>
       <p className="mx-auto max-w-2xl text-muted-foreground mb-8">
-        Универсальная платформа продуктивности, которая помогает командам работать вместе, анализировать данные и эффективно масштабировать бизнес.
+        Закажите свежее мясо, фарш, котлеты и готовые полуфабрикаты прямо из нашего магазина. Доставка по городу или удобный самовывоз — выбирайте сами!
       </p>
       <div className="flex flex-wrap justify-center gap-4">
         <Button size="lg" className="px-8">
-          Функции
+          Сделать заказ
         </Button>
         <Button size="lg" variant="outline" className="px-8">
-          Демо
+          Каталог товаров
         </Button>
         <Button size="lg" variant="outline" className="px-8">
-          Цены
-        </Button>
-        <Button size="lg" variant="outline" className="px-8">
-          Ресурсы
-        </Button>
-        <Button size="lg" variant="outline" className="px-8">
-          Поддержка
+          Условия доставки
         </Button>
       </div>
     </section>

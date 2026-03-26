@@ -2,24 +2,24 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 
 export function FeaturesSection() {
   return (
-    <section className="container max-w-screen-xl py-16">
-      <h2 className="text-3xl font-bold text-center mb-12">Ключевые преимущества</h2>
+    <section id="features" className="container max-w-screen-xl py-16">
+      <h2 className="text-3xl font-bold text-center mb-12">Почему выбирают нас</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <FeatureCard
           number={1}
-          title="Опишите крутую функцию продукта"
-          description="Впечатлите, формируйте ожидания."
+          title="Только свежий продукт"
+          description="Мясо поступает ежедневно от проверенных поставщиков. Никакой заморозки — только охлаждённое."
         />
         <FeatureCard
           number={2}
-          title="Опишите крутую функцию продукта"
-          description="Впечатлите, формируйте ожидания."
+          title="Быстрая доставка"
+          description="Доставим заказ в течение 2 часов по городу. Также доступен самовывоз в удобное для вас время."
         />
         <FeatureCard
           number={3}
-          title="Опишите крутую функцию продукта"
-          description="Впечатлите, формируйте ожидания."
+          title="Удобный заказ онлайн"
+          description="Выбирайте товары, указывайте вес и способ доставки прямо в приложении — без звонков и очередей."
         />
       </div>
     </section>

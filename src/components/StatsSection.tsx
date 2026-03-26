@@ -4,10 +4,10 @@ export function StatsSection() {
   return (
     <section className="container max-w-screen-xl py-16">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <StatCard value="95%" label="Удовлетворенность клиентов" />
-        <StatCard value="4x" label="Быстрее внедрение" />
-        <StatCard value="97%" label="Гарантия доступности" />
-        <StatCard value="450+" label="Активных клиентов" />
+        <StatCard value="98%" label="Довольных покупателей" />
+        <StatCard value="2 ч" label="Среднее время доставки" />
+        <StatCard value="50+" label="Видов мяса и полуфабрикатов" />
+        <StatCard value="1200+" label="Постоянных клиентов" />
       </div>
     </section>
   )
