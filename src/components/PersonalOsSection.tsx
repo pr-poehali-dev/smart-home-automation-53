@@ -27,9 +27,7 @@ export function PersonalOsSection() {
           </Card>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <FeatureItem title="Доставка за 2 часа" />
             <FeatureItem title="Самовывоз в любое время" />
-            <FeatureItem title="Отслеживание заказа" />
             <FeatureItem title="Оплата онлайн и наличными" />
           </div>
         </div>
