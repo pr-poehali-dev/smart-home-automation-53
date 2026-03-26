@@ -15,12 +15,14 @@ export function PersonalOsSection() {
             Удобное приложение для заказа свежего мяса и полуфабрикатов. Выбирайте товары, указывайте нужный вес и оформляйте заказ за пару минут.
           </p>
 
-          <Card className="bg-card/50 border-border/40 mb-6">
+          <Card className="bg-card/50 border-border/40 mb-4">
             <CardHeader className="pb-2">
-              <CardTitle className="text-sm font-medium">Статус вашего заказа</CardTitle>
+              <CardTitle className="text-sm font-medium">🕐 График доставки</CardTitle>
             </CardHeader>
-            <CardContent>
-              <p className="text-xs text-muted-foreground">🟢 Заказ #1042 — в пути. Ожидайте через 45 минут</p>
+            <CardContent className="space-y-1">
+              <p className="text-xs text-muted-foreground">🚚 <span className="text-foreground/80 font-medium">Нижегородский район</span> — доставка ежедневно с 09:00 до 17:00</p>
+              <p className="text-xs text-muted-foreground">📋 Приём заказов на доставку с 07:00 до 15:00</p>
+              <p className="text-xs text-muted-foreground">📍 <span className="text-foreground/80 font-medium">Другие районы</span> — по договорённости, в зависимости от удалённости</p>
             </CardContent>
           </Card>
 
