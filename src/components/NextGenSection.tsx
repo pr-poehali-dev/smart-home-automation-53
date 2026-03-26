@@ -20,8 +20,6 @@ export function NextGenSection() {
           <CardContent>
             <div className="text-3xl font-bold mb-2">38 заказов</div>
             <div className="text-sm text-muted-foreground">Доставка и самовывоз</div>
-            <div className="mt-4 text-2xl font-bold text-primary">84 500 ₽</div>
-            <div className="text-xs text-muted-foreground">выручка за день</div>
           </CardContent>
         </Card>
 
@@ -36,24 +34,6 @@ export function NextGenSection() {
             <PipelineItem label="Котлеты домашние" value={74} />
             <PipelineItem label="Свинина (шея)" value={60} />
             <PipelineItem label="Пельмени ручной лепки" value={45} />
-          </CardContent>
-        </Card>
-
-        <Card className="bg-card/50 border-border/40">
-          <CardHeader>
-            <CardTitle className="text-lg flex items-center gap-2">
-              <Icon name="BarChart2" className="h-4 w-4" /> Продажи за неделю
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="h-32 flex items-end gap-1 pb-4">
-              {[55, 70, 45, 80, 65, 90, 75].map((h, i) => (
-                <div key={i} className="bg-primary/40 w-full rounded-t" style={{ height: `${h}%` }} />
-              ))}
-            </div>
-            <div className="flex justify-between text-xs text-muted-foreground">
-              <span>Пн</span><span>Вт</span><span>Ср</span><span>Чт</span><span>Пт</span><span>Сб</span><span>Вс</span>
-            </div>
           </CardContent>
         </Card>
 

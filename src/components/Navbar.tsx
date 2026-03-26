@@ -26,9 +26,6 @@ export function Navbar() {
           </nav>
         </div>
         <div className="ml-auto flex items-center space-x-4">
-          <a href="#" className="text-sm font-medium transition-colors hover:text-foreground/80">
-            Войти
-          </a>
           <Button className="ml-4">
             Сделать заказ
           </Button>
