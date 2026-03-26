@@ -8,7 +8,7 @@ export function Navbar() {
         <div className="mr-4 flex">
           <a href="/" className="mr-6 flex items-center space-x-2">
             <Icon name="Beef" className="h-6 w-6 text-primary" />
-            <span className="font-bold">МясоМаркет</span>
+            <span className="font-bold">Нижегородский гурман</span>
           </a>
           <nav className="flex items-center space-x-6 text-sm font-medium">
             <a href="#features" className="transition-colors hover:text-foreground/80">
